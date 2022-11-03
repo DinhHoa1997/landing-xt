@@ -1,0 +1,126 @@
+/* Mobile & Table */
+@media (max-width: 1023px) {}
+
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {}
+
+/* Table Lanscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    /* body{
+        font-size: 50%;
+    } */
+    .header-mb{
+        display: flex;
+        justify-content: space-between;
+        padding:5px 15px;
+        align-items: center;
+    }
+    .menu-mobile
+    {
+        color: #00803D;
+   
+    }
+    .menu-mobile i{
+        font-size: 3rem;
+    }
+   
+    .top-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 15px;
+    }
+    
+   
+    
+    .footer-copyright{
+        width: 100%;
+        color: #FFF;
+        border-top: 1px solid #f0f0f0;
+        padding-top: 10px;
+    }
+    .homethematic-item {
+        margin-top: 30px;
+    }
+  
+    .homecat-title {
+        font-size: 24px;
+    }
+    .footer {
+        padding:0;
+    }
+    .btn-dangky
+    {margin-bottom: 30px;}
+    .bantochuc-item
+    {
+        height: 150px;
+    }
+    #tabsdangky-nav, #tabs-nav{
+        overflow-x: scroll;
+        padding: 0px;
+    }
+    #tabsdangky-nav li, .tabs-nav li{
+        min-width: 120px;
+        padding: 10px 5px;
+    }
+    .btn-dangkytaitro
+    {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    .btn-dangkytaitro a{
+        padding: 5px;
+    }
+    .homedonors-wrapper, .dangkythamdu-wrapper
+    {
+        background-attachment: fixed;
+    }
+    .fancybox-button.fancybox-close-small {
+        top: -0.5rem !important;
+        right: -0.5rem !important;
+        border: 0.2rem solid #0e0e0e;
+        color: #000 !important;
+        border-radius: 50%;
+        /* width: 3rem; */
+        /* height: 3rem; */
+    }
+    .menutab .menutab-item
+    {
+        width: auto;
+    min-width: 60%;
+    
+    }
+    .menutab {
+        display: inline-flex;
+        overflow: scroll;
+        flex-wrap: nowrap;
+        padding-bottom: 10px;
+    }
+    
+}
+
+/* Ipad pro */
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    /* .homenews-wrapper .grid-container {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-gap: 30px;
+    } */
+}
+
+
+/* PC LARGE */
+
+@media (min-width: 1919px) {
+    .grid {
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
